@@ -1,0 +1,28 @@
+.carousel .carousel-item img {
+  height: 95vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.circleShape {
+  width: 3rem;
+  height: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .text-founder {
+    width: 100% !important;
+    margin-top: 1.25rem;
+  }
+
+  .carousel .carousel-item img {
+    /* margin-top: 2rem; */
+    height: 100%;
+    margin-top: 5rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .fullWidthOnMob {
+    width: 100% !important;
+  }
+}
